@@ -141,8 +141,8 @@ var promise = new Promise(
     // executor
     function(resolve, reject) {
         // logic
-        // resolve() khi công việc thành công
-        // reject() khi ko thành công
+        // resolve() hàm đc gọi khi công việc Promise thành công
+        // reject() hàm đc gọi khi Promise ko thành công
         resolve([
             {
                 id: 1,
