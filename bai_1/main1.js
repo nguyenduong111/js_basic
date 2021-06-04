@@ -275,7 +275,7 @@ var languages2 = [
 console.log(languages.concat(languages2)) 
 // ['java','ruby','c++','duong','nhung']
 
-9. spice(<vị trí đầu>, <vị trí cuối>): lấy các phần tử từ vị trí đầu đến vị trí cuối
+9. spice(<vị trí đầu>, <vị trí cuối>): lấy các phần tử từ vị trí đầu đến vị trí cuối (ko tính vị trí cuối)
 var languages = [
     'java',
     'ruby',
@@ -287,6 +287,15 @@ console.log(languages.slice(1, 2))  // ruby
 
 
 */
+
+var languages = [
+    'java',
+    'ruby',
+    'c++',
+];
+
+// console.log(languages.slice(1))  // ['ruby','c++']
+console.log(languages.slice(0, 2))  // ruby
 
 
 

@@ -4,7 +4,7 @@
 // dom elem, dom attribut, dom text
 // dom style
 // ClassList Property
-// dom events
+
 
 
 

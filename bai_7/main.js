@@ -162,7 +162,7 @@ String.startWith('<check_string>') là thuộc tính mới của string,
 */
 
 
-//vd 2: forcus vào input, hiện ra 1 list <li>, clicl vào <li> trả về console <li> đó
+//vd 2: forcus vào input, hiện ra 1 list <li>, click vào <li> trả về console <li> đó
 
 var ulElem = document.querySelector('ul');
 
