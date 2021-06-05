@@ -4,6 +4,7 @@
 
 var input = 10000;
 
+
 // function exist(number, arr, start, end) {
 //     let middle = parseInt((start + end) / 2);
 
@@ -17,6 +18,7 @@ var input = 10000;
 //     if (number > arr[middle]) return exist(number, arr, middle, end);
 //     else return exist(number, arr, start, middle);
 //   }
+
 
 function Blum(input) {
     var arrBlum = [];
@@ -60,7 +62,7 @@ function Blum(input) {
         }
     }
 
-    arrBlum.sort((a, b) => a - b);
+    // arrBlum.sort((a, b) => a - b);
     var sizeBlum = arrBlum.length;
     for(var i = 0; i < sizeBlum; i ++) {
         for(var j = i + 1; j < sizeBlum; j ++) {
